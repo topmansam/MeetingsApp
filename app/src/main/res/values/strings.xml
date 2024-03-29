@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyMettings</string>
+    <string name="title_activity_schedule_meeting">ScheduleMeeting</string>
+</resources>

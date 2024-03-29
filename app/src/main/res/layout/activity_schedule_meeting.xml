@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleMeeting">
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/button_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="493dp" />
+    ... />
+
+    <Button
+        android:id="@+id/button_create_meeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Meeting"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="555dp" />
+    ... />
+
+    <!-- OR a Button to open a location picker dialog -->
+    <Button
+        android:id="@+id/button_add_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Location"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="617dp" />
+    ... />
+</androidx.constraintlayout.widget.ConstraintLayout>
